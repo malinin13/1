@@ -1,0 +1,43 @@
+.b-menu-wrapper {
+  margin: auto;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background: url('../../images/blackorchid.png');
+  height: 80px;
+  top: 0;
+  border-bottom: 1px solid #393939;
+  box-shadow: 0 1px 8px 0px black;
+  -moz-box-shadow: 0px 1px 8px 0px black;
+  -webkit-box-shadow: 0px 1px 8px 0px black;
+
+}
+
+.b-menu-inner {
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+  width: 1140px;
+  height: 55px;
+  line-height: 80px;
+  text-align: right;
+  li {
+    list-style: none;
+    display: inline;
+    padding: 6px 10px 4px 10px;
+    line-height: 20px;
+    font-weight: 100;
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      color: #bbb;
+    }
+    }
+}
+
+.b-menu-inner_logo {
+  display: inline-block;
+  img {
+    max-width: 120px;
+  }
+}

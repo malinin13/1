@@ -1,0 +1,17 @@
+.menu {
+  margin: 0px auto;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background: url('../../images/blackorchid.png');
+  height: 80px;
+  top: 0;
+  border-bottom: 1px solid #393939;
+  box-shadow: 0 1px 8px 0px black;
+  -moz-box-shadow: 0px 1px 8px 0px black;
+  -webkit-box-shadow: 0px 1px 8px 0px black; }
+  .menu li {
+    list-style: none;
+    display: inline;
+    padding: 6px 10px 4px 10px;
+    border: 1px solid green; }
