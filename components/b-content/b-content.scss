@@ -3,7 +3,12 @@
   background-image: url('../../images/ser-bg.png');
   background-position: center center;
   position: relative;
-  top: 60px;
+  top: 80px;
+  width: 100%!important;
+  .content-wrapper {
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
 }
 .section-services .services-box {
   text-align: center;
