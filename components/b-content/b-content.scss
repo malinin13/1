@@ -3,7 +3,7 @@
   background-image: url('../../images/ser-bg.png');
   background-position: center center;
   position: relative;
-  top: 80px;
+  top: 60px;
 }
 .section-services .services-box {
   text-align: center;
@@ -147,3 +147,67 @@
 .services-diamond .services-icon.wid {
   background-image: url('../../images/wid.png');
 }
+
+/**************************************BLOCK CONTENT*****************************/
+.b-content-post {
+  position: relative;
+  top: 80px;
+  width: 1140px;
+  height: auto;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+  .b-content-post_text {
+    text-align: justify;
+    margin-top: 0px;
+    font-family: 'proxima_novalight';
+    line-height: 22px;
+    font-size: 18px;
+  }
+  .b-content-post_header {
+    font-size: 25px!important;
+  }
+  .b-content-post_image {
+    img {
+      max-width: 485px;
+    }
+    .miniImg {
+      max-width: 80%;
+    }
+  }
+}
+
+
+
+
+
+.b-partners {
+  margin-top: 150px;
+  .b-partners-coworking {
+    height: auto;
+    .b-partners-coworking_elem {
+        width: 468px;
+      height: 325px;
+      background-image: url("../../images/wspolpraca.png");
+      background-repeat: no-repeat ;
+      padding: 40px 20px 10px 20px;
+      .b-partners-coworking_elem-header {
+
+      }
+      .b-partners-coworking_elem-text {
+
+      }
+      .b-partners-coworking_elem-img {
+        max-height: 80px;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+
+
