@@ -5,6 +5,7 @@ var gulp            = require('gulp'),
     plumber          = require('gulp-plumber'),
     notify          = require('gulp-notify'),
     watch         = require('gulp-watch'),
+    compass         = require('gulp-compass'),
     concat          = require('gulp-concat');
 
 
@@ -22,9 +23,6 @@ gulp.task('template:html', function(){
         .pipe(concat('main.html'))
         .pipe(gulp.dest('./assets/html'));
 });
-
-
-
 
 
 gulp.task('sass', function () {

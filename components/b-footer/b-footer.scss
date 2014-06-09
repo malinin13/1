@@ -27,17 +27,19 @@
 
   .youtube-social {
 
-    background-image: url("../../images/social3.png");
+    background-image: url("../../images/sprites/facebook.png");
     &:hover {
-      background-image: url("../../images/social3-1.png");
+      cursor: pointer;
+      background-image: url("../../images/sprites/facebook_hover.png");
     }
   }
   .fb-social {
     position: relative;
     left: -45px;
-    background-image: url("../../images/social1.png");
+    background-image: url("../../images/sprites/youtube.png");
     &:hover {
-      background-image: url("../../images/social1-1.png");
+      cursor: pointer;
+      background-image: url("../../images/sprites/youtube_hover.png");
     }
   }
   .fb-social, .youtube-social {

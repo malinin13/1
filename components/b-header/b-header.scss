@@ -1,5 +1,5 @@
 .b-menu-wrapper {
-  margin: auto;
+  margin: 0 auto;
   position: fixed;
   z-index: 1000;
   width: 100%;
@@ -20,19 +20,32 @@
   width: 1140px;
   height: 55px;
   line-height: 80px;
-  text-align: right;
+  text-align: center;
   li {
     list-style: none;
-    display: inline;
+    display: inline-block;
     padding: 6px 10px 4px 10px;
+    margin-left: 5px;
     line-height: 20px;
     font-weight: 100;
     a {
       font-size: 14px;
       text-decoration: none;
       color: #bbb;
+
     }
     }
+}
+
+#magic-line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background: #8cbf27;
+  padding: 0;
+  margin-left: 0;
 }
 
 .b-menu-inner_logo {
