@@ -10,7 +10,7 @@
     <script type="text/javascript" src="../../js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../../js/jquery.color-RGBa-patch.js"></script>
-
+    <script type="text/javascript" src="../../js/ajaxNav.js"></script>
     <link rel="stylesheet" type="text/css" href="../../css/demo.css" />
     <link rel="stylesheet" type="text/css" href="../../css/style.css" />
     <link rel="stylesheet" type="text/css" href="../../css/custom.css" />
@@ -23,7 +23,7 @@
 
 <body>
 
-<header class="clearfix">
+<header class="clearfix" id="header">
 
 
                <div class="b-menu-wrapper">
@@ -32,11 +32,11 @@
                            <img src="../../images/logo_MobiTouch.png">
                        </div>
                        <ul class="col-lg-8  menu pull-right" id="example-one">
-                           <li class="current_page_item"><a href="#">Strona główna</a></li>
-                           <li><a href="#">Realizacje</a></li>
-                           <li><a href="#">Oferta</a></li>
+                           <li class="current_page_item"><a href="../../assets/html/main.html#header">Strona główna</a></li>
+                           <li><a href="../../assets/html/main.html#realizations">Realizacje</a></li>
+                           <li><a href="#" id="oferta">Oferta</a></li>
                            <li><a href="#">Aktualności</a></li>
-                           <li><a href="#">Partnerzy</a></li>
+                           <li><a href="../../assets/html/main.html#partners">Partnerzy</a></li>
                            <li><a href="#">Kariera</a></li>
                            <li><a href="#">Kontakt</a></li>
                        </ul>
@@ -184,119 +184,120 @@
     </div>
 </div>
 
-<div class="b-content">
-    <div class="row">
-        <div class="content-wrapper">
-            <div class="b-content-post col-lg-12 col-md-12 col-sm-12">
-                <div class="b-content-post_header">
-                    <h1 class="blueText">Witaj w MobiTouch!</h1>
-                    <br>
-                    <br>
-                </div>
-                <div class="b-content-post_text pull-left col-lg-6 col-md-6 col-sm-6">
-                    <b>MobiTouch</b> specjalizuje się w tworzeniu aplikacji mobilnych oraz gier.
-                    <br><br>
-                    Nasz zespół to połączenie pełnych pasji programistów oraz kreatywnych grafików i rysowników, wspólnie tworzących rozwiązania najwyższej jakości.  Do Twojej dyspozycji pozostają również doświadczeni konsultanci specjalizujący się w marketingu mobilnym, internetowym i social media. Wszyscy jesteśmy entuzjastami najnowszych osiągnięć technologicznych. Wspierają nas eksperci z takich dziedzin jak: socjologia, prawo, psychologia.
-                    <br><br>
-                    Wszystko to, by sprostać Twoim oczekiwaniom oraz zapewnić najlepsze wsparcie w rozwoju Twojego biznesu.
-                </div>
-                <div class="b-content-post_image col-lg-6 col-md-6 col-sm-6 pull-right">
-                    <img src="../../images/img_witaj.png">
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="content-wrapper">
-            <div class="b-content-post col-lg-12">
-                <div class="b-content-post_header pull-right">
-
-                </div>
-                <div class="b-content-post_text pull-right col-lg-6">
-                    <br><br>
-                    <h1 class="blueText pull-right ">Ostatnia realizacja</h1>
-                    <br><br><br>
-                    <h2>Mr.Vintage</h2>
-                    <br>
-                    Aplikacja Mr.Vintage jest mobilną wersją najpopularniejszego w Polsce bloga o modzie męskiej, wzbogaconą o push powiadomienia do każdego nowego wpisu, udostępnianie w mediach społecznościowych oraz możliwość dodawania najlepszych wpisów do zakładki ulubione. W ramach prac nad aplikacją mobilną przygotowaliśmy również Web service.
-                </div>
-                <div class="b-content-post_image col-lg-5 pull-left">
-                    <img src="../../images/Realizations/600.png">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="content-wrapper">
-            <div class="b-content-post col-lg-12">
-                <div class="b-content-post_header">
-                    <h1 class="blueText">Aktualności</h1>
-                    <br>
-                    <h2>MobiTouch na Imagine Cup 2014 - dla nas nie ma granic!</h2>
-                </div>
-                <div class="b-content-post_text pull-left col-lg-8">
-                    Krajowe finały Imagine Cup już za nami. Do półfinałów światowych przeszły trzy polskie drużyny, po jednej z każdej kategorii: Projekty Społeczne (World Citizenship), Innowacje (Innovation) oraz Gry (Games). Naszej drużynie Mobi Games nie udało się przejść do następnego etapu. Jednak sam udział w konkursie, tak jak i zeszłego roku, był świetną okazją na zdobycie nowego doświadczenia oraz nawiązania obiecujących kontaktów biznesowych.
-                        <br>
-                    <br>
-                    <div class="btn btn-danger">See more</div>
-                </div>
-
-                <div class="b-content-post_image col-lg-4">
-                    <img src="../../images/News/mini.jpg" class="miniImg  pull-right">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="b-partners col-lg-12">
+<div class="b-content results" id="realizations">
+        <div class="row">
             <div class="content-wrapper">
-                <div class="b-partners_header">
-                    <h1 class="blueText">Partnerzy</h1>
-                    <br>
-                </div>
-                <div class="b-content-post_text">
-                    W ramach naszej działalności współpracujemy z wieloma różnymi podmiotami przy realizacji naszych projektów. Cenimy sobie wzajemny szacunek oraz terminowość powierzonych nam zadań.
-                    <br><br>
-                </div>
-                <div class="b-partners-coworking col-lg-12">
-
-
-                    <div class="b-partners-coworking_elem col-lg-4">
-                        <h4 class="b-partners-coworking_elem-header">WSIiZ i InnoFund</h4>
+                <div class="b-content-post col-lg-12 col-md-12 col-sm-12">
+                    <div class="b-content-post_header">
+                        <h1 class="blueText">Witaj w MobiTouch!</h1>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="b-content-post_text pull-left col-lg-6 col-md-6 col-sm-6">
+                        <b>MobiTouch</b> specjalizuje się w tworzeniu aplikacji mobilnych oraz gier.
                         <br><br>
+                        Nasz zespół to połączenie pełnych pasji programistów oraz kreatywnych grafików i rysowników, wspólnie tworzących rozwiązania najwyższej jakości.  Do Twojej dyspozycji pozostają również doświadczeni konsultanci specjalizujący się w marketingu mobilnym, internetowym i social media. Wszyscy jesteśmy entuzjastami najnowszych osiągnięć technologicznych. Wspierają nas eksperci z takich dziedzin jak: socjologia, prawo, psychologia.
+                        <br><br>
+                        Wszystko to, by sprostać Twoim oczekiwaniom oraz zapewnić najlepsze wsparcie w rozwoju Twojego biznesu.
+                    </div>
+                    <div class="b-content-post_image col-lg-6 col-md-6 col-sm-6 pull-right">
+                        <img src="../../images/img_witaj.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="content-wrapper">
+                <div class="b-content-post col-lg-12">
+                    <div class="b-content-post_header pull-right">
+
+                    </div>
+                    <div class="b-content-post_text pull-right col-lg-6">
+                        <br><br>
+                        <h1 class="blueText pull-right ">Ostatnia realizacja</h1>
+                        <br><br><br>
+                        <h2>Mr.Vintage</h2>
+                        <br>
+                        Aplikacja Mr.Vintage jest mobilną wersją najpopularniejszego w Polsce bloga o modzie męskiej, wzbogaconą o push powiadomienia do każdego nowego wpisu, udostępnianie w mediach społecznościowych oraz możliwość dodawania najlepszych wpisów do zakładki ulubione. W ramach prac nad aplikacją mobilną przygotowaliśmy również Web service.
+                    </div>
+                    <div class="b-content-post_image col-lg-5 pull-left">
+                        <img src="../../images/Realizations/600.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="content-wrapper">
+                <div class="b-content-post col-lg-12">
+                    <div class="b-content-post_header">
+                        <h1 class="blueText">Aktualności</h1>
+                        <br>
+                        <h2>MobiTouch na Imagine Cup 2014 - dla nas nie ma granic!</h2>
+                    </div>
+                    <div class="b-content-post_text pull-left col-lg-8">
+                        Krajowe finały Imagine Cup już za nami. Do półfinałów światowych przeszły trzy polskie drużyny, po jednej z każdej kategorii: Projekty Społeczne (World Citizenship), Innowacje (Innovation) oraz Gry (Games). Naszej drużynie Mobi Games nie udało się przejść do następnego etapu. Jednak sam udział w konkursie, tak jak i zeszłego roku, był świetną okazją na zdobycie nowego doświadczenia oraz nawiązania obiecujących kontaktów biznesowych.
+                        <br>
+                        <br>
+                        <div class="btn btn-danger">See more</div>
+                    </div>
+
+                    <div class="b-content-post_image col-lg-4">
+                        <img src="../../images/News/mini.jpg" class="miniImg  pull-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" >
+            <div class="b-partners col-lg-12" id="partners">
+                <div class="content-wrapper" >
+                    <div class="b-partners_header" >
+                        <h1 class="blueText">Partnerzy</h1>
+                        <br>
+                    </div>
+                    <div class="b-content-post_text">
+                        W ramach naszej działalności współpracujemy z wieloma różnymi podmiotami przy realizacji naszych projektów. Cenimy sobie wzajemny szacunek oraz terminowość powierzonych nam zadań.
+                        <br><br>
+                    </div>
+                    <div class="b-partners-coworking col-lg-12">
+
+
+                        <div class="b-partners-coworking_elem col-lg-4">
+                            <h4 class="b-partners-coworking_elem-header">WSIiZ i InnoFund</h4>
+                            <br><br>
                         <span class="b-partners-coworking_elem-text">
                             InnoFund to fundusz inwestycyjny, działający przy Wyższej Szkole Informatyki i Zarządzania w Rzeszowie, posiadający udziały w MobiTouch Sp. z o.o. Ponadto współpracujemy z WSIiZ przy licznych projektach oraz przedsięwzięciach.
                         </span>
-                        <img src="../../images/Cooperation/107617798d7417093c1410f835573761.png" class="b-partners-coworking_elem-img pull-right">
-                    </div>
+                            <img src="../../images/Cooperation/107617798d7417093c1410f835573761.png" class="b-partners-coworking_elem-img pull-right">
+                        </div>
 
-                    <div class="b-partners-coworking_elem col-lg-4 pull-right">
-                        <h4 class="b-partners-coworking_elem-header">Fabryka e-biznesu</h4>
-                        <br><br>
+                        <div class="b-partners-coworking_elem col-lg-4 pull-right">
+                            <h4 class="b-partners-coworking_elem-header">Fabryka e-biznesu</h4>
+                            <br><br>
                         <span class="b-partners-coworking_elem-text">
                             Fabryka e-biznesu jest nowoczesną agencją kreatywną, specjalizującą się w budowaniu marki oraz dostarczaniu innowacyjnych rozwiązań. Firmowy zespół składa się z utalentowanych specjalistów, zajmujących się strategią, kreacją oraz nowoczesnymi technologiami informatycznymi.
                         </span>
-                        <img src="../../images/Cooperation/f950cf73a5f601dbc1aceea9367bb4de.png" class="b-partners-coworking_elem-img pull-right">
-                    </div>
+                            <img src="../../images/Cooperation/f950cf73a5f601dbc1aceea9367bb4de.png" class="b-partners-coworking_elem-img pull-right">
+                        </div>
 
-                    <div class="b-partners-coworking_elem col-lg-4 col-lg-offset-3">
-                        <h4 class="b-partners-coworking_elem-header">Grupa Reklamowa GreeMi</h4>
-                        <br><br>
+                        <div class="b-partners-coworking_elem col-lg-4 col-lg-offset-3">
+                            <h4 class="b-partners-coworking_elem-header">Grupa Reklamowa GreeMi</h4>
+                            <br><br>
                         <span class="b-partners-coworking_elem-text">
                             Grupa Reklamowa GreeMi zajmuje się reklamą wizualną dla firm, organizacji i instytucji. GreeMi istnieje od 2005 roku i od samego początku specjalizuje się w kompleksowej obsłudze, której założeniem jest kreowanie wizerunku przedsiębiorstwa.
                         </span>
-                        <img src="../../images/Cooperation/156005c5baf40ff51a327f1c34f2975b.jpg" class="b-partners-coworking_elem-img pull-right">
+                            <img src="../../images/Cooperation/156005c5baf40ff51a327f1c34f2975b.jpg" class="b-partners-coworking_elem-img pull-right">
+                        </div>
                     </div>
+
                 </div>
-
+            </div>
         </div>
-    </div>
- </div>
 
-</div>
+    </div>
 
 <div class="row">
 
@@ -350,6 +351,7 @@
 <script type="text/javascript" src="../../js/jquery.ba-cond.min.js"></script>
 <script type="text/javascript" src="../../js/jquery.slitslider.js"></script>
 <script type="text/javascript">
+    //----------------------------------SLIDER BEGIN-----------//
     $(function() {
 
         var Page = (function() {
@@ -412,8 +414,24 @@
             return { init : init };
         })();
         Page.init();
-
     });
+    //----------------------------------SLIDER END------------//
+//----------------------------------SMOOTH SCROLLING------------//
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+//----------------------------------SMOOTH SCROLLING END ------------//
 </script>
 <script type="text/javascript" src="../../js/magicLine.js"></script>
 </body>
