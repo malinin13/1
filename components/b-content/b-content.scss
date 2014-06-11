@@ -188,29 +188,9 @@
 
 
 .b-partners {
-  margin-top: 150px;
-  .b-partners-coworking {
-    height: auto;
-    .b-partners-coworking_elem {
-        width: 468px;
-      height: 325px;
-      background-image: url("../../images/wspolpraca.png");
-      background-repeat: no-repeat ;
-      padding: 40px 20px 10px 20px;
-      .b-partners-coworking_elem-header {
-
-      }
-      .b-partners-coworking_elem-text {
-
-      }
-      .b-partners-coworking_elem-img {
-        max-height: 80px;
-        position: absolute;
-        top: 30px;
-        right: 20px;
-        margin-right: 20px;
-      }
-    }
+  margin-top: 120px;
+  .b-partners_text {
+    font-size: 20px;
   }
 }
 
