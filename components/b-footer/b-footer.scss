@@ -24,28 +24,33 @@
 }
 
 .b-socials {
-
-  .youtube-social {
-
-    background-image: url("../../images/sprites/facebook.png");
-    &:hover {
-      cursor: pointer;
-      background-image: url("../../images/sprites/facebook_hover.png");
-    }
-  }
-  .fb-social {
-    position: relative;
-    left: -45px;
-    background-image: url("../../images/sprites/youtube.png");
-    &:hover {
-      cursor: pointer;
-      background-image: url("../../images/sprites/youtube_hover.png");
-    }
-  }
   .fb-social, .youtube-social {
+    background: url('../../images/sprites/socials-sprite.png') no-repeat;
     width: 47px;
     height: 47px;
     display: inline-block;
     margin-top: 65px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .fb-social {
+    margin-right: 10px;
+    background-position: 0 -141px;
+    &:hover {
+      background-position: 0 -94px;
+    }
+  }
+
+  .youtube-social {
+    background-position: 0 -47px;
+    &:hover {
+      background-position: 0 0;
+    }
   }
 }
+
+
+
+

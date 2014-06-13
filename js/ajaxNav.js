@@ -1,6 +1,8 @@
 $(document).ready(function() {
     var oferta = document.getElementById("oferta");
-    function ajax() {
+
+
+    oferta.onclick = function () {
         $.ajax({
             url: "././test.html",
             cache: false,
@@ -8,10 +10,6 @@ $(document).ready(function() {
                 $(".results").html(html);
             }
         })
-    }
-
-    oferta.onclick = function () {
-        console.log('lalka');
-        ajax();
     };
 });
+

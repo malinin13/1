@@ -25,6 +25,16 @@ gulp.task('template:html', function(){
 });
 
 
+gulp.task('compass', function() {
+    gulp.src('./src/*.scss')
+        .pipe(compass({
+            sass: './components/styles.scss'
+        }))
+        .pipe(minifyCSS())
+        .pipe(gulp.dest('./compass'));
+});
+
+
 gulp.task('sass', function () {
     gulp.src('./components/styles.scss')
         .pipe(sass())

@@ -1,0 +1,58 @@
+/* line 1, ../../components/b-footer/b-footer.scss */
+.b-footer {
+  background-image: url("../../images/blackorchid.png");
+  height: auto;
+  color: white;
+}
+/* line 5, ../../components/b-footer/b-footer.scss */
+.b-footer .b-footer-biuro_header {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* line 9, ../../components/b-footer/b-footer.scss */
+.b-footer .b-footer-biuro_text {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+/* line 14, ../../components/b-footer/b-footer.scss */
+.b-footer .b-footer-biuro_img {
+  padding: 10px 15px 0 0;
+}
+
+/* line 19, ../../components/b-footer/b-footer.scss */
+.b-belongTo {
+  padding-bottom: 20px;
+}
+/* line 20, ../../components/b-footer/b-footer.scss */
+.b-belongTo img {
+  height: 55px;
+}
+
+/* line 28, ../../components/b-footer/b-footer.scss */
+.b-socials .youtube-social {
+  background-image: url("../../images/sprites/facebook.png");
+}
+/* line 31, ../../components/b-footer/b-footer.scss */
+.b-socials .youtube-social:hover {
+  cursor: pointer;
+  background-image: url("../../images/sprites/facebook_hover.png");
+}
+/* line 36, ../../components/b-footer/b-footer.scss */
+.b-socials .fb-social {
+  position: relative;
+  left: -45px;
+  background-image: url("../../images/sprites/youtube.png");
+}
+/* line 40, ../../components/b-footer/b-footer.scss */
+.b-socials .fb-social:hover {
+  cursor: pointer;
+  background-image: url("../../images/sprites/youtube_hover.png");
+}
+/* line 45, ../../components/b-footer/b-footer.scss */
+.b-socials .fb-social, .b-socials .youtube-social {
+  width: 47px;
+  height: 47px;
+  display: inline-block;
+  margin-top: 65px;
+}
